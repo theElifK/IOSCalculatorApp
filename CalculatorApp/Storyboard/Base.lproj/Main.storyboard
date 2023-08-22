@@ -31,7 +31,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Cjc-l8-xDE">
                                                 <rect key="frame" x="0.0" y="72" width="296" height="60"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Br7-l5-nc5" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                    <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Br7-l5-nc5" customClass="AnimatableButton" customModule="IBAnimatable">
                                                         <rect key="frame" x="0.0" y="0.0" width="65" height="60"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -51,7 +51,7 @@
                                                             <action selector="operationButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tcq-ri-RCW"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwN-Hs-UKy" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                    <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwN-Hs-UKy" customClass="AnimatableButton" customModule="IBAnimatable">
                                                         <rect key="frame" x="77" y="0.0" width="65" height="60"/>
                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -71,7 +71,7 @@
                                                             <action selector="operationButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m8g-KR-f89"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F05-2S-phX" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                    <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F05-2S-phX" customClass="AnimatableButton" customModule="IBAnimatable">
                                                         <rect key="frame" x="154" y="0.0" width="65" height="60"/>
                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -91,7 +91,7 @@
                                                             <action selector="operationButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ok-UZ-gIf"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBS-aD-DgJ" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                    <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBS-aD-DgJ" customClass="AnimatableButton" customModule="IBAnimatable">
                                                         <rect key="frame" x="231" y="0.0" width="65" height="60"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <constraints>
@@ -176,7 +176,7 @@
                                                             <action selector="numberButttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFq-tN-1o3"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRi-Dq-N7U" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                    <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRi-Dq-N7U" customClass="AnimatableButton" customModule="IBAnimatable">
                                                         <rect key="frame" x="231" y="0.0" width="65" height="60"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <constraints>
@@ -261,7 +261,7 @@
                                                             <action selector="numberButttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mC4-PP-yFK"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgv-W7-7WC" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                    <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgv-W7-7WC" customClass="AnimatableButton" customModule="IBAnimatable">
                                                         <rect key="frame" x="231" y="0.0" width="65" height="60"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <constraints>
@@ -346,7 +346,7 @@
                                                             <action selector="numberButttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="09i-7F-xN0"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84K-Ol-pE4" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                    <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84K-Ol-pE4" customClass="AnimatableButton" customModule="IBAnimatable">
                                                         <rect key="frame" x="231" y="0.0" width="65" height="60"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <constraints>
@@ -414,7 +414,7 @@
                                                                     <action selector="operationButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SKX-0v-Zs2"/>
                                                                 </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fg1-dB-O9f" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fg1-dB-O9f" customClass="AnimatableButton" customModule="IBAnimatable">
                                                                 <rect key="frame" x="77" y="0.0" width="65" height="60"/>
                                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                                 <constraints>
@@ -462,6 +462,25 @@
                     </view>
                     <connections>
                         <outlet property="screenLabel" destination="pMP-Uq-8Ph" id="UZu-BC-79A"/>
+                        <outletCollection property="buttons" destination="Br7-l5-nc5" collectionClass="NSMutableArray" id="X9O-QT-K6h"/>
+                        <outletCollection property="buttons" destination="xwN-Hs-UKy" collectionClass="NSMutableArray" id="82H-He-PAB"/>
+                        <outletCollection property="buttons" destination="F05-2S-phX" collectionClass="NSMutableArray" id="cuJ-yP-I1i"/>
+                        <outletCollection property="buttons" destination="hBS-aD-DgJ" collectionClass="NSMutableArray" id="bHD-N4-Tpd"/>
+                        <outletCollection property="buttons" destination="pIQ-ef-xfk" collectionClass="NSMutableArray" id="Zrq-Ts-ze2"/>
+                        <outletCollection property="buttons" destination="2Dc-mR-ShF" collectionClass="NSMutableArray" id="Lkp-mG-Rx6"/>
+                        <outletCollection property="buttons" destination="SVg-ij-v1b" collectionClass="NSMutableArray" id="lOl-01-rqq"/>
+                        <outletCollection property="buttons" destination="fRi-Dq-N7U" collectionClass="NSMutableArray" id="m2S-aB-aY9"/>
+                        <outletCollection property="buttons" destination="Jsq-K9-zRO" collectionClass="NSMutableArray" id="h0Q-i0-BVx"/>
+                        <outletCollection property="buttons" destination="AYG-Q2-fTh" collectionClass="NSMutableArray" id="cU8-hq-z40"/>
+                        <outletCollection property="buttons" destination="cqC-da-42P" collectionClass="NSMutableArray" id="5JW-aV-efB"/>
+                        <outletCollection property="buttons" destination="kgv-W7-7WC" collectionClass="NSMutableArray" id="TKo-lW-wGH"/>
+                        <outletCollection property="buttons" destination="NgE-jR-tUL" collectionClass="NSMutableArray" id="oNI-uc-vjt"/>
+                        <outletCollection property="buttons" destination="dqo-xf-W1C" collectionClass="NSMutableArray" id="cXF-St-exb"/>
+                        <outletCollection property="buttons" destination="LU9-Yq-iq6" collectionClass="NSMutableArray" id="qKt-TF-r2K"/>
+                        <outletCollection property="buttons" destination="84K-Ol-pE4" collectionClass="NSMutableArray" id="AL1-jQ-6ro"/>
+                        <outletCollection property="buttons" destination="9zD-Vx-J8A" collectionClass="NSMutableArray" id="UoM-ja-xRy"/>
+                        <outletCollection property="buttons" destination="drJ-rq-3hG" collectionClass="NSMutableArray" id="tAE-9L-h0P"/>
+                        <outletCollection property="buttons" destination="Fg1-dB-O9f" collectionClass="NSMutableArray" id="6aG-DN-2j8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

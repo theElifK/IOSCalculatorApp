@@ -10,6 +10,7 @@ import UIKit
 class CalculatorVC: UIViewController {
 
     @IBOutlet weak var screenLabel: UILabel!
+    @IBOutlet var buttons: [UIButton]!
     var type: OperationType?
     
     var firstValue = 0.0
@@ -56,11 +57,21 @@ class CalculatorVC: UIViewController {
         }
         self.screenLabel.text = self.result
     }
+    func setButtonColor(tag: Int){
+        for i in 0..<buttons.count{
+            if buttons[i].tag == tag{
+                buttons[i].alpha = 0.7
+            }else{
+                buttons[i].alpha = 1
+            }
+        }
+    }
 }
 //MARK: - Button Actions
 extension CalculatorVC{
     
     @IBAction func numberButttonTapped(_ sender: UIButton) {
+        self.setButtonColor(tag: sender.tag)
         if self.type == .Decimal {
             self.screenLabel.text = (self.screenLabel.text ?? "") + String(sender.tag)
             self.firstValue = Double(self.screenLabel.text ?? "0.0") ?? 0.0
@@ -80,6 +91,7 @@ extension CalculatorVC{
     }
     
     @IBAction func operationButtonTapped(_ sender: UIButton) {
+        self.setButtonColor(tag: sender.tag)
         let value = self.screenLabel.text ?? "0.0"
         switch sender.titleLabel?.text{
         case OperationType.Add.rawValue:
